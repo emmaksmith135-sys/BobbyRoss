@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2{
+    color:navy;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h3{
+    color:darkred;
+    font-family:'Courier New', Courier, monospace
+}

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How to Paint Like Bob Ross</title>
+
+  <!-- Fun Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --card-bg: rgba(255,255,255,0.88);
+      --radius: 18px;
+      --pad: 20px;
+
+      /* Bob Ross Palette */
+      --titanium-white: #ffffff;
+      --phthalo-blue: #003153;
+      --sap-green: #507d2a;
+      --van-dyke-brown: #5b3a29;
+      --cadmium-yellow: #ffd700;
+      --alizarin-crimson: #8b0000;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Nunito", sans-serif;
+      background: radial-gradient(circle at top left, #fbe7c6, #cddffd, #fff1f2);
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    h1, h2, h3 {
+      font-family: "Pacifico", cursive;
+      color: #2b2b2b;
+      margin-top: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .header-box {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: var(--pad);
+      box-shadow: 0 8px 26px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .header-box p {
+      margin: 6px 0 0 0;
+      font-size: 1rem;
+    }
+
+    .flirt {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #5b3a29;
+      opacity: 0.9;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: var(--pad);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    ul {
+      padding-left: 1.1rem;
+      margin: 0;
+    }
+
+    li {
+      background: rgba(255,255,255,0.6);
+      padding: 10px 14px;
+      margin: 12px 0;
+      border-radius: 14px;
+      border: 1px solid rgba(0,0,0,0.06);
+      line-height: 1.5;
+    }
+
+    .palette {
+      background: var(--card-bg);
+      padding: var(--pad);
+      border-radius: var(--radius);
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .swatch {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 10px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.55);
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .color-box {
+      width: 48px;
+      height: 36px;
+      border-radius: 8px;
+      border: 1px solid rgba(0,0,0,0.08);
+    }
+
+    /* Useful Links styling */
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a {
+      display: block;
+      margin: 6px 0;
+      font-weight: 600;
+      color: #2b2b2b;
+      text-decoration: none;
+      background: rgba(255,255,255,0.7);
+      padding: 8px 12px;
+      border-radius: 10px;
+      transition: 0.2s;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .links a:hover {
+      background: rgba(255,255,255,0.95);
+      transform: translateX(4px);
+    }
+
+    @media (max-width: 900px){
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+<div class="card"><a href = "content.html" </a> <a href = index.html> home   </a></div>    <!-- HEADER -->
+    <div class="header-box">
+      <h1>How to Paint Like Bob Ross</h1>
+      <p>Your bright, soft-glowing guide to skies, mountains, and happy little trees.</p>
+      <p class="flirt">If you need someone to hold your palette… well, I’m right here. 🎨😉</p>
+    </div>
+<div class='tableauPlaceholder' id='viz1765214464036' style='position: relative'><noscript><a href='#'><img alt='His Purple Majesty ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Prince&#47;HisPurpleMajesty&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Prince&#47;HisPurpleMajesty' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Prince&#47;HisPurpleMajesty&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='_gl=1*1tq9ppx*_ga*NzY5NjA5NDI1LjE3NjUyMTQzOTA.*_ga_8YLN0SNXVS*czE3NjUyMTQzODgkbzEkZzEkdDE3NjUyMTQ0MzIkajYwJGwwJGgw*_gcl_au*MTU0ODUzMTk3Mi4xNzY1MjE0Mzkw' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1765214464036');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1849px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1849px';} else { vizElement.style.width='100%';vizElement.style.height='3477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+   
+<iframe src="https://www.coolmathgames.com/" frameborder="2" width = 400></iframe>
+
+<main>
+      <!-- Steps -->
+      <section class="card">
+        <h2>Painting Steps</h2>
+        <ul>
+          <li><strong>Prep your canvas:</strong> Add a thin coat of Liquid White for smooth blending.</li>
+          <li><strong>Create the sky:</strong> Sweep Phthalo Blue across the top and fade downward.</li>
+          <li><strong>Add dreamy clouds:</strong> Tap Titanium White with a 1” brush, then blend edges softly.</li>
+          <li><strong>Shape distant mountains:</strong> Use a palette knife with cool blues and browns.</li>
+          <li><strong>Tap in trees:</strong> Mix Sap Green + Cadmium Yellow for highlights.</li>
+          <li><strong>Deepen the foreground:</strong> Use Van Dyke Brown for trunks, rocks, and shadows.</li>
+          <li><strong>Final magic:</strong> Add details, blend edges, soften mistakes — Bob-style.</li>
+        </ul>
+
+        <h3 style="margin-top:24px;">How Bob Got Into Painting</h3>
+        <p style="line-height:1.6;">
+          Bob Ross served in the U.S. Air Force for two decades.  
+          During long hours in Alaska, he began painting landscapes to relax and eventually discovered the wet-on-wet technique.  
+          After retiring as a Master Sergeant, he devoted himself to teaching art — the gentle, iconic style the world loves.
+        </p>
+      </section>
+
+      <!-- Palette -->
+      <aside class="palette">
+        <h2>Color Palette</h2>
+
+        <div class="swatch">
+          <div class="color-box" style="background:var(--titanium-white);"></div>
+          <div><strong>Titanium White</strong></div>
+        </div>
+
+        <div class="swatch">
+          <div class="color-box" style="background:var(--phthalo-blue);"></div>
+          <div><strong>Phthalo Blue</strong></div>
+        </div>
+
+        <div class="swatch">
+          <div class="color-box" style="background:var(--sap-green);"></div>
+          <div><strong>Sap Green</strong></div>
+        </div>
+
+        <div class="swatch">
+          <div class="color-box" style="background:var(--van-dyke-brown);"></div>
+          <div><strong>Van Dyke Brown</strong></div>
+        </div>
+
+        <div class="swatch">
+          <div class="color-box" style="background:var(--cadmium-yellow);"></div>
+          <div><strong>Cadmium Yellow</strong></div>
+        </div>
+
+        <div class="swatch">
+          <div class="color-box" style="background:var(--alizarin-crimson);"></div>
+          <div><strong>Alizarin Crimson</strong></div>
+        </div>
+
+        <!-- Useful links -->
+        <div class="links">
+          <h3>Useful Websites</h3>
+          <a href="https://www.bobross.com" target="_blank">Official Bob Ross Website</a>
+          <a href="https://www.youtube.com/@BobRossOfficial" target="_blank">Bob Ross YouTube Channel</a>
+          <a href="https://www.michaelshershey.com/bob-ross-color-guide" target="_blank">Bob Ross Color Guide</a>
+          <a href="https://www.dickblick.com" target="_blank">Art Supplies (Blick)</a>
+          <a href="https://www.jacksonsart.com" target="_blank">Oil Paint + Canvases</a>
+          <a href="https://twoinchbrush.com" target="_blank">Fan-made Bob Ross Tutorials</a>
+        </div>
+      </aside>
+
+    </main>
+
+  </div>
+</body>
+</html>
